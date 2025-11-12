@@ -58,6 +58,79 @@
 }
 
 
+/*------ CSS RESET START ------*/
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/*------ CSS RESET END ------*/
+
+
+h1,
 .text-present-1 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-bold);
@@ -66,6 +139,7 @@
     letter-spacing: var(--letter-spacing-default);
 }
 
+h2,
 .text-present-2 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-bold);
@@ -74,6 +148,7 @@
     letter-spacing: var(--letter-spacing-default);
 }
 
+h3,
 .text-present-3 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-bold);
@@ -82,6 +157,7 @@
     letter-spacing: var(--letter-spacing-default);
 }
 
+p,
 .text-present-4 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-medium);
@@ -90,6 +166,7 @@
     letter-spacing: var(--letter-spacing-default);
 }
 
+button,
 .text-present-5 {
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-bold);
