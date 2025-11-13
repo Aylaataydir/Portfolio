@@ -17,7 +17,7 @@
     --clr-summer-yellow: #F6A560;
     --clr-pink: #F39E9E;
     --clr-cyan: #61C4B7;
-    --clr-dark-purple: Dark Purple 500;
+    --clr-dark-purple: #552049;
 
 
     /* --- Font Family --- */
@@ -130,6 +130,10 @@ h6 {
 /*------ CSS RESET END ------*/
 
 
+body {
+    margin-block: 2rem 4rem; 
+}
+
 h1,
 .text-present-1 {
     font-family: var(--font-family-primary);
@@ -174,3 +178,96 @@ button,
     line-height: var(--line-height-relaxed);
     letter-spacing: var(--letter-spacing-default);
 }
+
+
+/*------ MAIN ------ */
+
+main {
+    padding-inline: 10.3125rem;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: var(--clr-neutral900);
+    color: var(--clr-neutral0);
+    border-radius: 1.875rem;
+    padding: 1rem 3rem;
+}
+
+.design-text {
+    margin-block: 5rem;
+}
+
+.design-text h1 {
+    margin-block-end: 1.25rem;
+}
+
+.box {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+
+.solutions {
+display: grid;
+grid-template-columns: 2fr 1fr 1fr 2fr;
+grid-template-areas: 
+"graphic ui apps photography"
+"graphic illustrations illustrations motion";
+gap:1.5rem ;
+max-width: 69.375rem;
+block-size: 364px;
+margin-inline: auto;
+}
+
+.solutions h3 {
+    text-align: start;
+}
+
+.solutions img {
+   margin-left: auto;
+}
+
+
+.graphic {
+    grid-area: graphic;
+    background-color: var(--clr-galactic-blue);
+   
+}
+
+.ui {
+    grid-area: ui;
+    background-color: var(--clr-summer-yellow);
+}
+
+.apps {
+    grid-area: apps;
+    background-color: var(--clr-pink);
+}
+
+.photography {
+    grid-area: photography;
+    background-color: var(--clr-cyan);
+}
+
+.illustrations {
+    grid-area: illustrations;
+    background-color: var(--clr-light-red);
+}
+
+.motion {
+    grid-area: motion;
+    background-color: var(--clr-dark-purple);
+}
+
+
+
+
