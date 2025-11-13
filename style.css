@@ -371,6 +371,7 @@ footer {
             "graphic  ui apps"
             "graphic illustrations illustrations"
             "photography motion motion";
+        min-height: 35.375rem;
     }
 
     .design-text {
@@ -444,6 +445,7 @@ footer {
             "motion motion";
         gap: 20px;
         margin-inline: auto;
+        min-height: 1152;
     }
 
     .about {
