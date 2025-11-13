@@ -220,8 +220,8 @@ button {
 display: grid;
 grid-template-columns: 2fr 1fr 1fr 2fr;
 grid-template-areas: 
-"graphic ui apps photography"
-"graphic illustrations illustrations motion";
+"graphic  ui apps photography "
+"graphic  illustrations illustrations motion";
 gap:1.5rem ;
 max-width: 69.375rem;
 block-size: 364px;
@@ -271,3 +271,27 @@ margin-inline: auto;
 
 
 
+
+
+
+
+/*------ MEDIA QUERY --------*/
+
+@media (max-width:61rem) {
+
+    main {
+        padding-inline: 2rem;
+    }
+    
+    .solutions {
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-areas: 
+        "graphic  ui apps"
+        "graphic illustrations illustrations"
+        "photography motion motion";
+    }
+
+    .design-text {
+        margin-block: 4rem;
+    }
+} 
