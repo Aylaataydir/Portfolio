@@ -131,7 +131,8 @@ h6 {
 
 
 body {
-    margin-block: 2rem 4rem; 
+    padding-block: 2rem 4rem;
+    background-color: var(--clr-neutral200);
 }
 
 h1,
@@ -217,15 +218,15 @@ button {
 
 
 .solutions {
-display: grid;
-grid-template-columns: 2fr 1fr 1fr 2fr;
-grid-template-areas: 
-"graphic  ui apps photography "
-"graphic  illustrations illustrations motion";
-gap:1.5rem ;
-max-width: 69.375rem;
-block-size: 364px;
-margin-inline: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-areas:
+        "graphic  ui apps photography "
+        "graphic  illustrations illustrations motion";
+    gap: 1.5rem;
+    max-width: 69.375rem;
+    min-block-size: 22.75rem;
+    margin-inline: auto;
 }
 
 .solutions h3 {
@@ -233,14 +234,14 @@ margin-inline: auto;
 }
 
 .solutions img {
-   margin-left: auto;
+    margin-left: auto;
 }
 
 
 .graphic {
     grid-area: graphic;
     background-color: var(--clr-galactic-blue);
-   
+
 }
 
 .ui {
@@ -270,6 +271,47 @@ margin-inline: auto;
 
 
 
+/*------ ABOUT--------*/
+
+
+.about {
+    margin-block: 7.5rem;
+    margin-inline: 10.3125rem;
+    max-width: 1100px;
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+
+    margin-inline: auto;
+
+}
+
+.about img {
+    width: 445px;
+    height: 445px;
+    flex: 1;
+}
+
+.about-text {
+    margin-block: 70px;
+    flex: 1;
+}
+
+.about p {
+    margin-block: 2rem;
+}
+
+.btn {
+    background-color: #E16B5B;
+    border: none;
+    padding: 1rem 3rem;
+
+}
+
+
+
+
+
 
 
 
@@ -282,16 +324,70 @@ margin-inline: auto;
     main {
         padding-inline: 2rem;
     }
-    
+
     .solutions {
         grid-template-columns: 2fr 1fr 1fr;
-        grid-template-areas: 
-        "graphic  ui apps"
-        "graphic illustrations illustrations"
-        "photography motion motion";
+        grid-template-areas:
+            "graphic  ui apps"
+            "graphic illustrations illustrations"
+            "photography motion motion";
     }
 
     .design-text {
         margin-block: 4rem;
     }
-} 
+
+    .about {
+        padding-inline: 2rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        margin-block: 5rem;
+    }
+
+    .about img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-text {
+        margin-block-start: 1.5rem;
+        text-align: center;
+    }
+
+    .about p {
+        margin-block: 1.25rem 2rem;
+    }
+}
+
+
+@media (max-width:61rem) {
+
+     main {
+        padding-inline: 1rem;
+    }
+
+
+    .solutions {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "graphic graphic"
+        "ui apps"
+        "illustrations illustrations"
+        "photography photography"
+        "motion motion";
+        gap: 20px;
+        margin-inline: auto;
+
+    }
+
+    .about {
+        padding-inline: 1rem;
+        margin-block: 4rem;
+    }
+
+    .about-text {
+        margin-block-end: 0;
+    }
+}
