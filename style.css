@@ -48,7 +48,7 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 976px) {
 
     :root {
         --text-preset-1-size: var(--font-size-xl);
@@ -465,6 +465,10 @@ footer {
 
     .contact {
         padding-inline: 2.5rem 1rem;
+    }
+
+    .contact button {
+     width: 300px;
     }
 
     footer {
