@@ -340,6 +340,7 @@ button {
     background-color: var(--clr-neutral900);
     padding: 10px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 
