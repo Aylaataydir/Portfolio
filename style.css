@@ -312,11 +312,32 @@ button {
 /*------- SLIDER -------*/
 
 .slider-wrapper {
-   
+   margin-block-start: 7.5rem;
+   text-align: center;
 }
 
 .slider {
     display: flex;
+    gap: 2rem;
+    overflow: hidden;
+    margin-block: 3rem;
+}
+
+.slider img {
+    border-radius: .5rem;
+}
+
+.slider-icon {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.slider-icon img {
+    background-color: var(--clr-neutral900);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 
