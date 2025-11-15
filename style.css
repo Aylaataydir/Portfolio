@@ -312,8 +312,8 @@ button {
 /*------- SLIDER -------*/
 
 .slider-wrapper {
-   margin-block-start: 7.5rem;
-   text-align: center;
+    margin-block-start: 7.5rem;
+    text-align: center;
 }
 
 .slider {
@@ -322,7 +322,7 @@ button {
     gap: 2rem;
     overflow: hidden;
     margin-block: 3rem;
-   
+
 }
 
 .slider img {
@@ -333,7 +333,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    
+
 }
 
 .slider-icon img {
@@ -381,6 +381,7 @@ button {
 footer {
     margin-block-start: 3rem;
 }
+
 
 
 
@@ -435,10 +436,10 @@ footer {
         margin-block: 1.25rem 2rem;
     }
 
-    
-.slider-wrapper {
-   margin-block-start: 80px;
-}
+
+    .slider-wrapper {
+        margin-block-start: 80px;
+    }
 
     .contact-wrapper {
         margin-block-start: 5rem;
@@ -458,7 +459,6 @@ footer {
     .contact button {
         margin-block: 2.5rem 0;
     }
-
 
 }
 
@@ -494,20 +494,18 @@ footer {
     }
 
     .slider-wrapper {
-   margin-block-start: 64px;
-}
+        margin-block-start: 64px;
+    }
 
-.slider {
-    gap: 1.25rem;
-}
+    .slider {
+        gap: 1.25rem;
+    }
 
     .slider img {
-    border-radius: .5rem;
-    width: 16.875rem;
-    height: 180px;
-}
-
-
+        border-radius: .5rem;
+        width: 16.875rem;
+        height: 180px;
+    }
 
     .contact-wrapper {
         margin-block-start: 4rem;
@@ -519,7 +517,7 @@ footer {
     }
 
     .contact button {
-     width: 300px;
+        width: 300px;
     }
 
     footer {
