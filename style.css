@@ -309,6 +309,19 @@ button {
 
 }
 
+/*------- SLIDER -------*/
+
+.slider-wrapper {
+   
+}
+
+.slider {
+    display: flex;
+}
+
+
+
+
 
 /*------ CONTACT------*/
 
