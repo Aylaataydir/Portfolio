@@ -326,8 +326,9 @@ button {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    overflow: hidden;
+    overflow: visible;
     margin-block: 3rem;
+    transition: all 1s ease;
 
 }
 
@@ -396,7 +397,6 @@ button {
 footer {
     margin-block-start: 3rem;
 }
-
 
 
 
