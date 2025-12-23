@@ -13,27 +13,7 @@ const transport = 500;
 
 const leftGap = (clientWidth-scrollWidth) / 2
 
-// arrowRight.addEventListener("click", () => {
 
-// if(currentlyTransport < maxScroll) {
-//     currentlyTransport -= transport
-// }
-
-// if(-currentlyTransport > maxScroll) {
-//     currentlyTransport += 
-// }
-
-//      slider.style.transform = `translateX(${currentlyTransport}px)`
-
-// })
-
-// arrowLeft.addEventListener("click", () => {
-
-// currentlyTransport -= transport
-
-
-// slider.style.transform = `translateX(${currentlyTransport}px)`
-// })
 
 arrowRight.addEventListener("click", () => {
     if (currentlyTransport < maxScroll) {
