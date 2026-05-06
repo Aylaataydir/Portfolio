@@ -134,6 +134,7 @@ body {
     padding-block: 2rem 4rem;
     background-color: var(--clr-neutral200);
     max-width: 1400px;
+    margin-inline: auto;
 }
 
 h1,
