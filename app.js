@@ -6,19 +6,16 @@ const arrowLeft = document.querySelector(".icon-left")
 
 
 let currentlyTransport = 0;
-const scrollWidth = slider.scrollWidth
-const clientWidth = sliderContainer.clientWidth
-const maxScroll = scrollWidth - clientWidth
 const transport = 500;
 
-const leftGap = (clientWidth-scrollWidth) / 2
-
+const scrollWidth = slider.scrollWidth;
+const clientWidth = sliderContainer.clientWidth
+const maxScroll = scrollWidth - clientWidth
 
 
 arrowRight.addEventListener("click", () => {
     if (currentlyTransport < maxScroll) {
         currentlyTransport += transport;
-
         if (currentlyTransport > maxScroll) {
             currentlyTransport = maxScroll;
         }
@@ -40,9 +37,6 @@ arrowLeft.addEventListener("click", () => {
 });
 
 
-
-"use strict";
- isim = 0;   
 
 
 

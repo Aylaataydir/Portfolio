@@ -320,13 +320,16 @@ button {
 .slider-wrapper {
     margin-block-start: 7.5rem;
     text-align: center;
+
+}
+
+.slider-container {
+    overflow: hidden;
 }
 
 .slider {
     display: flex;
-    justify-content: center;
     gap: 2rem;
-    overflow: visible;
     margin-block: 3rem;
     transition: all 1s ease;
 
