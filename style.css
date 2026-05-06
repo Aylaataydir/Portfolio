@@ -133,6 +133,7 @@ h6 {
 body {
     padding-block: 2rem 4rem;
     background-color: var(--clr-neutral200);
+    max-width: 1400px;
 }
 
 h1,
